@@ -7,6 +7,11 @@
 <meta name="description" content="Official portfolio of Eliya Amro, Computer Engineering student at Istanbul Technical University. Projects, background, technical skills, and interactive world map.">
 <meta name="author" content="Eliya Amro">
 <link rel="canonical" href="https://eliyaamro.com/">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+<link rel="icon" type="image/svg+xml" href="/logo.svg">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta property="og:title" content="Eliya Amro | Computer Engineering Student">
 <meta property="og:description" content="Official portfolio of Eliya Amro, Computer Engineering student at Istanbul Technical University.">
 <meta property="og:type" content="website">
@@ -110,6 +115,9 @@
   }
 
   .brand-logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
     font-family: 'Outfit', sans-serif;
     font-size: 22px;
     font-weight: 800;
@@ -119,6 +127,12 @@
 
   .brand-logo span {
     color: var(--accent-coral);
+  }
+
+  .brand-logo img {
+    width: 34px;
+    height: 34px;
+    display: block;
   }
 
   .nav-links {
@@ -750,7 +764,8 @@
 <header class="nav-header">
   <div class="container nav-flex">
     <a href="#" class="brand-logo">
-      ELIYA <span>AMRO</span>
+      <img src="logo.svg" alt="Eliya Amro logo" width="34" height="34">
+      <div>ELIYA <span>AMRO</span></div>
     </a>
     <ul class="nav-links">
       <li><a href="#about">About</a></li>
