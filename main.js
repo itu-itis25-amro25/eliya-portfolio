@@ -70,7 +70,7 @@
     document.getElementById('send-whatsapp').addEventListener('click', function () {
       var d = compose(); if (!d) return;
       var text = 'Hi Eliya, I\'m ' + d.name + '. [' + d.topic + ']\n\n' + d.msg;
-      window.open('https://wa.me/905316755800?text=' + encodeURIComponent(text), '_blank', 'noopener');
+      window.open('https://wa.me/905822090660?text=' + encodeURIComponent(text), '_blank', 'noopener');
     });
     document.getElementById('send-email').addEventListener('click', function () {
       var d = compose(); if (!d) return;
